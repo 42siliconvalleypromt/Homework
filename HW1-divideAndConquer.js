@@ -24,7 +24,6 @@
 
 
 function numberOfOnes(arr) {
-  // YOUR WORK HERE
 }
 
 
@@ -50,11 +49,29 @@ function numberOfOnes(arr) {
  * `[1, 2, 3], 8 --> 3`
  * `[1, 10, 22, 59, 67, 72, 100], 70 --> 72`
  */
+/*
 
+
+start = 0 
+end = arr.length 
+target
+value =  negative infinity 
+
+loop start < end 
+  midpoint 
+  if (value - target > arr[midpoint]-target) {
+    value becomes current value at midpoint 
+  }
+  
+  if targer bigger than arr[midpoint]
+    start = midpoint + 1
+ else 
+  end = midpoint 
+
+return value */
 
 function closestValue(arr, target) {
-
-  // YOUR WORK HERE
+ 
 }
 
 
